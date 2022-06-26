@@ -1,3 +1,4 @@
+import React,{useEffect} from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Intro from './components/Intro';
@@ -20,6 +21,12 @@ function App() {
     boxSizing: 'borderBox',
     backgroundColor: 'rgb(220, 227, 245)'
   }
+  const addTitle = () =>{
+    document.title = 'Chirag Gupta';
+  }
+  useEffect(()=>{
+    addTitle();
+  }, [])
   return (
     <div className="container" style={containerStyles}>
       <Router>
