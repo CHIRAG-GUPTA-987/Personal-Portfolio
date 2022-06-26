@@ -6,19 +6,19 @@ const Sidebar = () => {
     return (
         <nav className="sidebar">
             <ul>
-                <Link to="/ChiragGupta">
+                <Link to="/Personal-Portfolio/ChiragGupta">
                     <li>Home</li>
                 </Link>
-                <Link to="/ChiragGupta/Intro">
+                <Link to="/Personal-Portfolio/ChiragGupta/Intro">
                     <li>Intro</li>
                 </Link>
-                <Link to="/ChiragGupta/Services">
+                <Link to="/Personal-Portfolio/ChiragGupta/Services">
                     <li>Services</li>
                 </Link>
-                <Link to="/ChiragGupta/Blogs">
+                <Link to="/Personal-Portfolio/ChiragGupta/Blogs">
                     <li>Blog</li>
                 </Link>
-                <Link to="/ChiragGupta/Contact">
+                <Link to="/Personal-Portfolio/ChiragGupta/Contact">
                     <li>Contact</li>
                 </Link>
             </ul>

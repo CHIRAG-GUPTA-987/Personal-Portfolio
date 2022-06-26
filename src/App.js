@@ -32,11 +32,11 @@ function App() {
       <Router>
         <Sidebar/>
         <Routes>
-          <Route path="/ChiragGupta" element={<Home/>}/>
-          <Route path="/ChiragGupta/Intro" element={<Intro/>}/>
-          <Route path="/ChiragGupta/Services" element={<Services/>}/>
-          <Route path="/ChiragGupta/Blogs" element={<Blogs/>}/>
-          <Route path="ChiragGupta/Contact" element={<Contact/>}/>
+          <Route path="/Personal-Portfolio/ChiragGupta" element={<Home/>}/>
+          <Route path="/Personal-Portfolio/ChiragGupta/Intro" element={<Intro/>}/>
+          <Route path="/Personal-Portfolio/ChiragGupta/Services" element={<Services/>}/>
+          <Route path="/Personal-Portfolio/ChiragGupta/Blogs" element={<Blogs/>}/>
+          <Route path="/Personal-Portfolio/ChiragGupta/Contact" element={<Contact/>}/>
         </Routes>
       </Router>
     </div>

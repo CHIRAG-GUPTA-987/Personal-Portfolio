@@ -21,7 +21,7 @@ const Home = () => {
                     </div>
                     <div className="buttons">
                         <a href={resume} download="resume"><button className="CV btn">Download CV</button></a>
-                        <Link to="/ChiragGupta/Contact"><button className="contact btn">Contact Me</button></Link>
+                        <Link to="/Personal-Portfolio/ChiragGupta/Contact"><button className="contact btn">Contact Me</button></Link>
                     </div>
                 </div>
                 <div className="devPic">
