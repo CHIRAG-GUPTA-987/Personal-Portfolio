@@ -1,0 +1,91 @@
+.mainHome {
+    background-color: rgb(220, 227, 245);
+    width: 80%;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    border: 0.01rem solid #8d99ae;
+    border-left: 0;
+    overflow: auto;
+}
+
+.infoContainer{
+    background-color: #c0cef8;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.01rem solid #0e283d;
+    border-radius: 1rem;
+    padding: 4rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.devInfo, .devPic {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    transition: all 1s;
+}
+
+.devInfo:hover {
+    color: #002261;
+}
+
+.devInfo .hello, .devInfo .name {
+    font-size: 2rem;
+}
+
+.devInfo .name {
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+}
+
+.devInfo .About {
+    font-size: 1.4rem;
+}
+
+.devInfo .About ul li {
+    list-style-type: '~';
+}
+
+.devInfo .buttons {
+    display: flex;
+}
+
+.devInfo .buttons a, .devInfo .buttons Link {
+    margin: 0 0.5rem;
+}
+
+.devInfo .buttons a .btn, .devInfo .buttons Link .btn{
+    padding: 0.8rem;
+    /* margin: 0.5rem; */
+    background-color:rgba(0, 0, 0, 0.19);
+    border: 0.14rem solid #1d2231;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.devInfo .buttons a .btn:hover, .devInfo .buttons a .btn:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.devPic img {
+    width: 80%;
+    border-radius: 50%;
+    border: 0.2rem solid #13182c;
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    cursor: pointer;
+}
+
+.devPic img:hover {
+    border: 0.25rem solid #13182c;
+}

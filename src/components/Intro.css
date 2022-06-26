@@ -1,0 +1,82 @@
+.main {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+    background-color: rgb(220, 227, 245);
+    width: 80%;
+    padding: 5rem;
+    display: flex;
+    border: 0.01rem solid #8d99ae;
+    border-left: 0;
+    overflow: auto;
+}
+
+.main h2 {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.About {
+    font-size: 1.4rem;
+}
+
+.skills ul, .languages ul{
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li, .languages ul li {
+    list-style-type: '-';
+    font-size: 1.5rem;
+}
+
+.language {
+    position: relative;
+}
+
+.languageInfo {
+    display: flex;
+    align-items: center;
+}
+
+.skillKnown {
+    position: absolute;
+    left: 6vw;
+    height: 1.6vh;
+    background-color: rgb(88, 154, 156);
+    border: 0.1rem solid rgb(3, 89, 92);
+    border-radius: 1rem;
+}
+
+.language:nth-of-type(1) .languageInfo .skillKnown {
+    width: 15vw;
+}
+
+.language:nth-of-type(2) .languageInfo .skillKnown {
+    width: 15vw;
+}
+
+.language:nth-of-type(3) .languageInfo .skillKnown {
+    width: 12vw;
+}
+
+.language:nth-of-type(4) .languageInfo .skillKnown {
+    width: 14vw;
+}
+
+.language:nth-of-type(5) .languageInfo .skillKnown {
+    width: 14vw;
+}
+
+.language:nth-of-type(6) .languageInfo .skillKnown {
+    width: 9vw;
+}
+
+.language:nth-of-type(7) .languageInfo .skillKnown {
+    width: 15vw;
+}
+
+.language:nth-of-type(8) .languageInfo .skillKnown {
+    width: 13vw;
+}

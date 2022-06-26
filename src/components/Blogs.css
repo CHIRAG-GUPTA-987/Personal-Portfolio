@@ -1,0 +1,49 @@
+.mainBlogs {
+    overflow: auto;
+    background-color: rgb(220, 227, 245);
+    width: 80%;
+    padding: 5rem;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 0.01rem solid #8d99ae;
+    border-left: 0;
+}
+
+.blog {
+    position: relative;
+    border: 0.1rem solid rgb(37, 37, 71);
+    border-radius: 1rem;
+    background-color: rgb(190, 212, 231);
+    color: rgb(37, 37, 71);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.blog h2 {
+    text-decoration: underline;
+}
+
+.blog p {
+    font-size: 1.3rem;
+}
+
+.blog button {
+    position: absolute;
+    bottom: -0.6rem;
+    right: 1rem;
+    background-color:rgb(37, 37, 71);
+    color:rgb(190, 212, 231);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    width: 10%;
+    height: 15%;
+    font-size: 1rem;
+    padding-bottom: 1.6rem;
+    cursor: pointer;
+}
+
+.blog button:hover {
+    background-color:rgb(61, 61, 102);
+}
