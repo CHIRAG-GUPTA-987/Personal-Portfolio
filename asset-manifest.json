@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ChiragGupta/static/css/main.1f88b01b.css",
-    "main.js": "/ChiragGupta/static/js/main.95bbbeaf.js",
-    "static/js/787.fb771931.chunk.js": "/ChiragGupta/static/js/787.fb771931.chunk.js",
-    "static/media/profile.jpeg": "/ChiragGupta/static/media/profile.691d9601762fea6f86b7.jpeg",
-    "static/media/resume.pdf": "/ChiragGupta/static/media/resume.8de9cefa250109354611.pdf",
-    "index.html": "/ChiragGupta/index.html",
-    "main.1f88b01b.css.map": "/ChiragGupta/static/css/main.1f88b01b.css.map",
-    "main.95bbbeaf.js.map": "/ChiragGupta/static/js/main.95bbbeaf.js.map",
-    "787.fb771931.chunk.js.map": "/ChiragGupta/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/Personal-Portfolio/ChiragGupta/static/css/main.1f88b01b.css",
+    "main.js": "/Personal-Portfolio/ChiragGupta/static/js/main.3e4322df.js",
+    "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/ChiragGupta/static/js/787.fb771931.chunk.js",
+    "static/media/profile.jpeg": "/Personal-Portfolio/ChiragGupta/static/media/profile.691d9601762fea6f86b7.jpeg",
+    "static/media/resume.pdf": "/Personal-Portfolio/ChiragGupta/static/media/resume.8de9cefa250109354611.pdf",
+    "index.html": "/Personal-Portfolio/ChiragGupta/index.html",
+    "main.1f88b01b.css.map": "/Personal-Portfolio/ChiragGupta/static/css/main.1f88b01b.css.map",
+    "main.3e4322df.js.map": "/Personal-Portfolio/ChiragGupta/static/js/main.3e4322df.js.map",
+    "787.fb771931.chunk.js.map": "/Personal-Portfolio/ChiragGupta/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f88b01b.css",
-    "static/js/main.95bbbeaf.js"
+    "static/js/main.3e4322df.js"
   ]
 }
