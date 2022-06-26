@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <nav className="sidebar">
             <ul>
-                <Link to="/Personal-Portfolio/ChiragGupta">
+                <Link to="/Personal-Portfolio">
                     <li>Home</li>
                 </Link>
                 <Link to="/Personal-Portfolio/ChiragGupta/Intro">
