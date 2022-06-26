@@ -32,7 +32,7 @@ function App() {
       <Router>
         <Sidebar/>
         <Routes>
-          <Route path="/Personal-Portfolio/ChiragGupta" element={<Home/>}/>
+          <Route path="/Personal-Portfolio" element={<Home/>}/>
           <Route path="/Personal-Portfolio/ChiragGupta/Intro" element={<Intro/>}/>
           <Route path="/Personal-Portfolio/ChiragGupta/Services" element={<Services/>}/>
           <Route path="/Personal-Portfolio/ChiragGupta/Blogs" element={<Blogs/>}/>
